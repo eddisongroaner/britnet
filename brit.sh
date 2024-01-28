@@ -125,6 +125,10 @@ echo "Your worker name will be : $currentdate"
 
 sleep 2
 
+echo ""
+echo ""
+sleep 2
+
 unset LD_PRELOAD
 unset LD_PRELOAD_ENV
 unset LD_LIBRARY_PATH

